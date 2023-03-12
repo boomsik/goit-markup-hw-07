@@ -448,7 +448,7 @@ padding-bottom: 96px;
 }
 
 .opportunities-item {
-    padding-bottom: 72px;
+    margin-bottom: 72px;
         /* margin-right: 24px; */
 }
 
@@ -1128,7 +1128,7 @@ transform: translate(-50%, -50%) scale(0);
     margin-bottom: 8px;
     display: flex;
     flex-direction: column;
-    /* position: relative; */
+    position: relative;
     }
 
     .first-box-text{
@@ -1141,8 +1141,7 @@ transform: translate(-50%, -50%) scale(0);
 
 
     .firts-box-block {
-        position: relative;
-        
+        /* position: relative;  */
     }
 
     .first-box-form{
@@ -1163,8 +1162,8 @@ transform: translate(-50%, -50%) scale(0);
 
     .first-box-icon{
     position: absolute;
+    bottom: 21px;
     left: 0;
-    top: 0;
     transform: translate(16px, 50%);
     width: 18px;
     height: 18px;
@@ -1173,8 +1172,8 @@ transform: translate(-50%, -50%) scale(0);
 
     .second-box-icon{
     position: absolute;
+    bottom: 17px;
     left: 0;
-    top: 0;
     transform: translate(19px, 35%);
     width: 18px;
     height: 24px;
@@ -1184,8 +1183,8 @@ transform: translate(-50%, -50%) scale(0);
 
     .third-box-icon {
     position: absolute;
+    bottom: 17px;
     left: 0;
-    top: 0;
     transform: translate(19px, 35%);
     width: 18px;
     height: 24px;
@@ -1312,6 +1311,11 @@ transform: translate(-50%, -50%) scale(0);
         }
 
 
+/* @media screen and (min-width: 420px) {
+.just-form {
+        width: 392px;
+    }
+} */
 
 
 
@@ -1388,6 +1392,7 @@ transform: translate(-50%, -50%) scale(0);
         }
 
         .opportunities-item {
+            margin: 0;
             width: 356px
         }
 
@@ -1521,6 +1526,7 @@ transform: translate(-50%, -50%) scale(0);
         }
 
         .effective {
+            max-width:1440px;
             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7) 100%), url(../images/people-office.jpg);
             padding-top: 188px;
             padding-bottom: 188px;
@@ -1586,8 +1592,13 @@ transform: translate(-50%, -50%) scale(0);
         }
 
         .opportunities-subtitle {
+            font-weight: 500;
             font-size: 20px;
             line-height: 1.2;
+        }
+                
+        .opportunities-text {
+        font-weight: 400;
         }
 
         .team {
@@ -1630,7 +1641,7 @@ transform: translate(-50%, -50%) scale(0);
         }
 
         .end-box {
-
+        margin-bottom: 0;
         }
 
         .end-media {
@@ -1649,6 +1660,11 @@ transform: translate(-50%, -50%) scale(0);
         .header{
         padding-bottom: 24px;
         }
+
+                .address-link {
+                    font-size: 16px;
+                    line-height: 1.5;
+                }
 
                 .strip::after {
                     bottom: -25px;
