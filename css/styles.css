@@ -1311,11 +1311,20 @@ transform: translate(-50%, -50%) scale(0);
         }
 
 
-/* @media screen and (min-width: 420px) {
+@media screen and (min-width: 400px) {
 .just-form {
-        width: 392px;
+        width: 340px;
     }
-} */
+
+.first-box-form {
+    width: 298px;
+}
+
+ .checkbox-icon {
+    width: 16px;
+    height: 16px;
+}
+}
 
 
 
